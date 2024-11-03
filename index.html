@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laiba Shabbir">
+    <meta name="description" content="This is my first weather app so far">
+
+<!-- linking external files here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+ <!-- title of the app -->
+    <title>Weather App</title>
+
+</head>
+
+
+<body>
+
+    <div class="outer_div">
+
+        <div class="search_sec">
+
+            <input type="search" name="search_bar" class="search_bar" placeholder="Search Weather">
+            <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
+
+        </div>
+        <div class="weather_representation">
+
+            <img src="media/cloudy_sunny.png" alt="weather_png" class="weather_logo">
+            <h1>31°C</h1>
+        
+        </div>
+
+        <p class="city_name">New York</p>
+
+        <div class="weather_info">
+
+            <div class="humidity weather_inner_div">
+                <img src="media/pngegg.png" alt="" class="humidity_picture">
+                
+                    <p><span>48%</span> <br> Humidity</p>
+                
+            </div>
+
+
+            <div class="Wind_speed weather_inner_div">
+                <i class="fa-solid fa-wind wind_icon"></i>                
+                    <p><span>10.9km/h</span> <br> Wind speed</p>
+                
+            </div>
+        </div>
+       
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
